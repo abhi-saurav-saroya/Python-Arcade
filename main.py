@@ -1,12 +1,14 @@
 from number_guessing_user.game import play as number_guessing_user
 from number_guessing_computer.game import play as number_guessing_computer
 from hangman.game import play as hangman
+from rock_paper_scissors.game import play as rock_paper_scissors
 
 
 GAMES = {
     "1": ("Number Guessing Game (You guess)", number_guessing_user),
     "2": ("Number Guessing Game (Computer guesses)", number_guessing_computer),
     "3": ("Hangman", hangman),
+    "4": ("Rock Paper Scissors", rock_paper_scissors),
 }
 
 
