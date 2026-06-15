@@ -1,8 +1,10 @@
-from number_guessing_user.game import play as number_guessing
+from number_guessing_user.game import play as number_guessing_user
+from number_guessing_computer.game import play as number_guessing_computer
 
 
 GAMES = {
-    "1": ("Number Guessing Game", number_guessing),
+    "1": ("Number Guessing Game (You guess)", number_guessing_user),
+    "2": ("Number Guessing Game (Computer guesses)", number_guessing_computer),
 }
 
 
