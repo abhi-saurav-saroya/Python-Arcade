@@ -11,13 +11,13 @@ Try to guess the hidden word.
 
 Rules:
 - Guess one letter at a time.
-- You have 6 incorrect guesses.
+- You have 10 incorrect guesses.
 - Only English letters are allowed.
 """)
 
 
 def load_words() -> list[str]:
-    with open("words.txt", "r") as file:
+    with open("hangman\words.txt", "r") as file:
         return [
             word.strip().lower()
             for word in file
@@ -71,7 +71,7 @@ def play_round() -> None:
 
     guessed_letters = set()
 
-    remaining_attempts = 6
+    remaining_attempts = 10
 
     print(
         f"\nThe word contains "
