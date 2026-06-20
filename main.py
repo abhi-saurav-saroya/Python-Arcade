@@ -3,6 +3,7 @@ from number_guessing_computer.game import play as number_guessing_computer
 from hangman.game import play as hangman
 from rock_paper_scissors.game import play as rock_paper_scissors
 from dice_roll.game import play as dice_roll
+from coin_toss.game import play as coin_toss
 
 
 GAMES = {
@@ -11,6 +12,7 @@ GAMES = {
     "3": ("Hangman", hangman),
     "4": ("Rock Paper Scissors", rock_paper_scissors),
     "5": ("Dice Roll", dice_roll),
+    "6": ("Coin Toss", coin_toss),
 }
 
 
