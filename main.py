@@ -4,6 +4,7 @@ from hangman.game import play as hangman
 from rock_paper_scissors.game import play as rock_paper_scissors
 from dice_roll.game import play as dice_roll
 from coin_toss.game import play as coin_toss
+from word_scramble.game import play as word_scramble
 
 
 GAMES = {
@@ -13,6 +14,7 @@ GAMES = {
     "4": ("Rock Paper Scissors", rock_paper_scissors),
     "5": ("Dice Roll", dice_roll),
     "6": ("Coin Toss", coin_toss),
+    "7": ("Word Scramble", word_scramble),
 }
 
 
