@@ -8,6 +8,7 @@ from word_scramble.game import play as word_scramble
 from math_challenge.game import play as math_challenge
 
 
+
 GAMES = {
     "1": ("Number Guessing Game (You guess)", number_guessing_user),
     "2": ("Number Guessing Game (Computer guesses)", number_guessing_computer),
